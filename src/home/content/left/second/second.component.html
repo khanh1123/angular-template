@@ -1,0 +1,16 @@
+<div class="row boxcrs mt-4 m-0">
+  <swiper-container
+    class="mySwiper"
+    pagination="true"
+    pagination-clickable="true"
+    space-between="20"
+    [slidesPerView]="maxSlider"
+  >
+    @for (item of items; track $index) {
+    <swiper-slide>
+      <img [src]="item.image" alt="" />
+      <p>{{ item.title }}</p>
+    </swiper-slide>
+    }
+  </swiper-container>
+</div>

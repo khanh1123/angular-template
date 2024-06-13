@@ -1,0 +1,15 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 30px;
+}
+.img {
+    width: -webkit-fill-available;
+}
+span {
+    color: rgba(0, 0, 0, 0.528);
+    padding-right: 15px;
+    font-size: 20px;
+}
